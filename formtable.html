@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is Registration Form inside the Table for TalentHuntShow.</h1>
+    <form action="">
+        <fieldset>
+        <legend>TalentHuntShow</legend>
+        <table border="2" rules="none">
+           
+            <tr>
+                <td><label for="name">First Name</label></td>
+                <td><input type="text" id="name" name="name" value="Enter Your Name here"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Enter Email</label></td>
+                <td><input type="email" id="email" name="email" value="Enter Your Email address"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Create Password</label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">Mobile Number</label></td>
+                <td><input type="tel" id="mobile" name="mobile"></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age</label></td>
+                <td><input type="number" name="age" id="age"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td><textarea name="address" id="address" cols="20" rows="3">Surat, Gujarat</textarea></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td><input type="radio" name="gender" id="male">Male
+                <input type="radio" name="gender" id="female">Female</td>
+            </tr>
+            <tr>
+                <td><label for="agegroup">Select Proffession</label></td>
+                <td><input type="checkbox" name="model" id="model">Model
+                <input type="checkbox" name="actor" id="actor">Actor
+                <input type="checkbox" name="choreo" id="choreo">Choreographer
+                <input type="checkbox" name="dancer" id="dancer">Dancer
+            <input type="checkbox" id="fresher" name="fresher">Fresher</td>
+            </tr>
+            <tr>
+                <td><label for="state">Select State</label></td>
+                <td><select name="state" id="state">
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Rajsthan">Rajsthan</option>
+                    <option value="maharastra">Maharastra</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="district">District</label></td>
+                <td><input list="district" name="" id="">
+                    <datalist id="district">
+                        <option value="kachchh">Kachchh</option>
+                        <option value="suart">Suart</option>
+                        <option value="baroda">Baroda</option>
+                        <option value="ahmedabad">Ahmedabad</option>
+                        <option value="rajkot">Rajkot</option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="search">Search Here</label></td>
+                <td><input type="search" name="search" id="search"></td>
+            </tr>
+            <tr>
+                <td><label for="date">Choose Date</label></td>
+                <td><input type="date" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="datetime">Choose Birthdate and Time</label></td>
+                <td><input type="datetime-local" name="bday" id="bday"></td>
+            </tr>
+            <tr>
+                <td><label for="portfolio">Upload Portfolio</label></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><label for="color">Choose Color</label></td>
+                <td><input type="color" name="color" id="color"></td>
+            </tr>
+            <tr>
+                <td>Choose a action</td>
+                <td>
+                    <input type="reset" name="reset" id="reset">
+                    <input type="submit" name="submit" id="submit"></td>
+            </tr>
+        </table>
+    </fieldset>
+    </form>
+</body>
+</html>
